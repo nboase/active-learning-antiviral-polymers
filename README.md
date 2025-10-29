@@ -95,6 +95,6 @@ This project is distributed under the GNU General Public License v3.0.
 See the LICENSE file for details.
 
 ### Author
-Dr Nathan Boase
+Dr Nathan Boase, 
 School of Chemistry and Physics, Queensland University of Technology
 nathan.boase@qut.edu.au
