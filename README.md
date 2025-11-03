@@ -19,6 +19,22 @@ These notebooks accompany the publication:
 | [`Large Monomer Library Generation_publication_v3.ipynb`](Large%20Monomer%20Library%20Generation_publication_v3.ipynb) | Generates molecular descriptors for a large library of monomer structures using RDKit and related tools. Clusters monomers into groupings using UMAP and K-means clustering |
 | [`requirements_largemonomerlibrary.txt`](requirements_largemonomerlibrary.txt) | Python dependencies for the Large Monomer Library Generation notebook. |
 
+All file paths in these notebooks use **relative paths**, meaning they refer to folders *within* the cloned repository rather than absolute locations on your computer. 
+This makes the workflow fully portable — as long as the folder structure is preserved, the notebooks will work on any system.
+
+active-learning-antiviral-polymers/
+│
+├── Descriptor_ML_publication_v2.ipynb
+├── Large Monomer Library Generation_publication_v3.ipynb
+│
+├── data/ # Input data files (e.g., monomer lists, polymer datasets)
+│ └── antiviral_dataset.csv
+│
+├── results/ # Outputs from the notebooks (e.g., predictions, plots)
+│ └── model_outputs.csv
+│
+├── requirements_descriptorML.txt
+└── requirements_largemonomerlibrary.txt
 ---
 
 ## Quick Start
