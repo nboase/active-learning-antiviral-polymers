@@ -61,8 +61,9 @@ cd active-learning-antiviral-polymers
 conda create -n antiviral-polymers python=3.11
 conda activate antiviral-polymers
 
-# Install Jupyter notebook
+# Install Jupyter notebook and openpyxl
 pip install jupyter
+pip install openpyxl
 
 # Install dependencies
 Depending on which notebook you want to run:
