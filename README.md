@@ -39,11 +39,23 @@ active-learning-antiviral-polymers/
 
 ## Quick Start
 
-Clone this repository and navigate into it:
+If you use **Conda** (recommended), follow these steps to clone the repository, create an environment, and run the notebooks.
+
+### 1. Open a terminal
+On Windows, open **Anaconda Prompt**.  
+On macOS or Linux, open **Terminal**.
+
+### 2. Clone the repository
+Clone this repository and navigate into it.
+If need be, navigate to the directory where you want to store the project. 
 
 ```bash
 git clone https://github.com/nboase/active-learning-antiviral-polymers.git
 cd active-learning-antiviral-polymers
+
+# Create and activate a new Conda environment
+conda create -n antiviral-polymers python=3.11
+conda activate antiviral-polymers
 
 # Install dependencies
 Depending on which notebook you want to run:
