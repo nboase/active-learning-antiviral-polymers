@@ -42,6 +42,7 @@ active-learning-antiviral-polymers/
 ## Quick Start
 
 If you use **Conda** (recommended), follow these steps to clone the repository, create an environment, and run the notebooks.
+For new users, we recommend using Miniconda for a small easy installation, as all required dependencies are included in this repo. For more information on installing Miniconda: https://www.anaconda.com/docs/getting-started/miniconda/install
 
 ### 1. Open a terminal
 On Windows, open **Anaconda Prompt**.  
