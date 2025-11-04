@@ -71,7 +71,7 @@ pip install jupyter
 pip install openpyxl
 
 # Install dependencies
-Depending on which notebook you want to run:
+# Depending on which notebook you want to run:
 pip install -r requirements_descriptorML.txt
 # or
 pip install -r requirements_largemonomerlibrary.txt
