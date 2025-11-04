@@ -60,6 +60,9 @@ cd active-learning-antiviral-polymers
 conda create -n antiviral-polymers python=3.11
 conda activate antiviral-polymers
 
+# Install Jupyter notebook
+pip install jupyter
+
 # Install dependencies
 Depending on which notebook you want to run:
 pip install -r requirements_descriptorML.txt
