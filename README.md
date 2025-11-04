@@ -29,10 +29,15 @@ active-learning-antiviral-polymers/
 ├── Large Monomer Library Generation.ipynb
 │
 ├── data/ # Input data files (e.g., monomer lists, polymer datasets)
-│ └── antiviral_dataset.csv
+│ └── 20241021_Polymers for ML with Descriptors.xlsx (Experimental data for training ML model)
+│ └── TCI Methacrylates (List of commercially available methacrylate monomers from TCI. Used as an example for Large_Monomer_Library_Generation.ipynb)
+│ └── cas_to_smiles_results_with_missing.xlsx (some SMILES string cannot be created for some monomers, this file has those additional monomers already added. You can make a version of this file for your own list)
+│ └── clustered_mon_data_MFP.xlsx (This is the final output file from Large_Monomer_Library_Generation.ipynb. It is an input file for Descriptor_ML_AL.ipynb. This is an example so you can start with Descriptor_ML_AL without running other script first.)
 │
 ├── results/ # Outputs from the notebooks (e.g., predictions, plots)
-│ └── model_outputs.csv
+│ └── 20251021_antiviral polym_AL_Mordred_selected_features.csv (Example output after undersampling and feature reduction. Data in published manuscript)
+│ └── 20251030_clustered_mon_data_MFP.xlsx (Final output from Large_Monomer_Library_Generation.ipynb. Data in published manuscript. Not used in this workflow)
+│ └── top_EI_predictions_with_monomer_percentages_20251017 (Example output from active learning workflow. Data matches published manuscript)
 │
 ├── requirements_descriptorMLAL.txt
 └── requirements_largemonomerlibrary.txt
@@ -49,13 +54,13 @@ On Windows, open **Anaconda Prompt**.
 On macOS or Linux, open **Terminal**.
 
 ### 2. Clone the repository
-Clone this repository and navigate into it.
+Clone this repository, rename to short directory name ('al-avp') and navigate into it.
 If need be, navigate to the directory where you want to store the project.
 You must install git with “Git from the command line and also from 3rd-party software” selected. https://git-scm.com/install/
 
 ```bash
-git clone https://github.com/nboase/active-learning-antiviral-polymers.git
-cd active-learning-antiviral-polymers
+git clone https://github.com/nboase/active-learning-antiviral-polymers.git al-avp
+cd al-avp
 
 # Create and activate a new Conda environment
 conda create -n antiviral-polymers python=3.11
