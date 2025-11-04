@@ -22,6 +22,7 @@ These notebooks accompany the publication:
 All file paths in these notebooks use **relative paths**, meaning they refer to folders *within* the cloned repository rather than absolute locations on your computer. 
 This makes the workflow fully portable — as long as the folder structure is preserved, the notebooks will work on any system.
 
+```text
 active-learning-antiviral-polymers/
 │
 ├── Descriptor_ML_publication_v2.ipynb
@@ -35,6 +36,7 @@ active-learning-antiviral-polymers/
 │
 ├── requirements_descriptorML.txt
 └── requirements_largemonomerlibrary.txt
+```
 ---
 
 ## Quick Start
