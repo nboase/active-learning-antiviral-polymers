@@ -49,7 +49,8 @@ On macOS or Linux, open **Terminal**.
 
 ### 2. Clone the repository
 Clone this repository and navigate into it.
-If need be, navigate to the directory where you want to store the project. 
+If need be, navigate to the directory where you want to store the project.
+You must install git with “Git from the command line and also from 3rd-party software” selected. https://git-scm.com/install/
 
 ```bash
 git clone https://github.com/nboase/active-learning-antiviral-polymers.git
