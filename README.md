@@ -63,17 +63,16 @@ git clone https://github.com/nboase/active-learning-antiviral-polymers.git al-av
 cd al-avp
 
 # Create and activate a new Conda environment
-conda create -n antiviral-polymers python=3.11
-conda activate antiviral-polymers
+conda create -n avp_al python=3.11
+conda activate avp_al
 
-# Install Jupyter notebook and openpyxl
-pip install jupyter
-pip install openpyxl
+# Install Jupyter notebook and openpyxl which both workflows use
+pip install jupyter openpyxl
 
 # Install dependencies
 # Depending on which notebook you want to run:
-pip install -r requirements_descriptorML.txt
-# or
+pip install -r requirements_descriptorMLAL.txt
+# and/or
 pip install -r requirements_largemonomerlibrary.txt
 
 # Launch Jupyter Notebook
@@ -81,9 +80,9 @@ jupyter notebook
 ```
 
 Then open one of the notebooks:
-Descriptor_ML_publication_v2.ipynb
+Descriptor_ML_AL2.ipynb
 or
-Large Monomer Library Generation_publication_v3.ipynb
+Large Monomer Library Generation.ipynb
 
 ## About the Project
 ### Descriptor ML Notebook
