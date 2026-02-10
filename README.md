@@ -48,6 +48,7 @@ active-learning-antiviral-polymers/
 
 If you use **Conda** (recommended), follow these steps to clone the repository, create an environment, and run the notebooks.
 For new users, we recommend using Miniconda for a small easy installation, as all required dependencies are included in this repo. For more information on installing Miniconda: https://www.anaconda.com/docs/getting-started/miniconda/install
+On Windows, some dependencies (like NumPy) may require compilation from source. You need to install Visual Studio Build Tools if you haven't already isntalled :
 
 ### 1. Open a terminal
 On Windows, open **Anaconda Prompt**.  
@@ -57,6 +58,10 @@ On macOS or Linux, open **Terminal**.
 Clone this repository, rename to short directory name ('al-avp') and navigate into it.
 If need be, navigate to the directory where you want to store the project.
 You must install git with “Git from the command line and also from 3rd-party software” selected. https://git-scm.com/install/
+Some dependencies (like NumPy) require compilation from source. This may need a C/C++ compiler depending on your operating system. 
+Windows: Visual Studio or Visual Studio Build Tools (light installation). 
+Mac: Xcode Command Line Tools. 
+Linux: build essential package.
 
 ```bash
 git clone https://github.com/nboase/active-learning-antiviral-polymers.git al-avp
