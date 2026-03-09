@@ -5,8 +5,8 @@ A workflow to create a machine learning model for predicting antiviral activity 
 This repository contains Jupyter notebooks and dependencies for developing and applying machine learning (ML) models to analyze polymer descriptors and generate large monomer libraries.
 
 These notebooks accompany the publication:
-> *[Title of your publication]* (2025).  
-> *Clodagh Boland, Nathan Boase* — Macromolecular Rapid Communications.
+> *Active Learning for the Discovery of Antiviral Polymers* (2026).  
+> *Clodagh Boland, Nhat Quynh Nguyen, Nathan Boase* — Macromolecular Rapid Communications, doi.org/10.1002/marc.202500890.
 
 ---
 
@@ -48,7 +48,7 @@ active-learning-antiviral-polymers/
 
 If you use **Conda** (recommended), follow these steps to clone the repository, create an environment, and run the notebooks.
 For new users, we recommend using Miniconda for a small easy installation, as all required dependencies are included in this repo. For more information on installing Miniconda: https://www.anaconda.com/docs/getting-started/miniconda/install
-On Windows, some dependencies (like NumPy) may require compilation from source. You need to install Visual Studio Build Tools if you haven't already isntalled :
+On Windows, some dependencies (like NumPy) may require compilation from source. You need to install Visual Studio Build Tools if you haven't already installed :
 
 ### 1. Open a terminal
 On Windows, open **Anaconda Prompt**.  
